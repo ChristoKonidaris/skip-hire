@@ -19,7 +19,7 @@ I chose Tailwind CSS to enable rapid styling and create responsive layouts effic
 
 A footer was added to improve the page structure.
 
-# Technologies Used:
+# Technologies Used
 
 - React (Vite)
 - Tailwind CSS
