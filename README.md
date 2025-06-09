@@ -19,6 +19,8 @@ I chose Tailwind CSS to enable rapid styling and create responsive layouts effic
 
 A footer was added to improve the page structure.
 
+Code Sandbox link: https://zrt44n-5173.csb.app/
+
 # Technologies Used
 
 - React (Vite)
