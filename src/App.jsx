@@ -311,41 +311,6 @@ function App() {
                     </span>
                   </div>
                 </div>
-
-                {!selectedSkipData.allowed_on_road && (
-                  <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-6">
-                    <div className="flex items-start gap-3">
-                      <AlertTriangle className="w-5 h-5 text-amber-600 mt-0.5" />
-                      <div>
-                        <p className="text-amber-800 font-medium text-sm">
-                          Private Land Placement Only
-                        </p>
-                        <p className="text-amber-700 text-sm mt-1">
-                          This skip can only be placed on private property, not
-                          on public roads.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
-                {!selectedSkipData.allows_heavy_waste && (
-                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-                    <div className="flex items-start gap-3">
-                      <AlertTriangle className="w-5 h-5 text-blue-600 mt-0.5" />
-                      <div>
-                        <p className="text-blue-800 font-medium text-sm">
-                          Standard Waste Only
-                        </p>
-                        <p className="text-blue-700 text-sm mt-1">
-                          This skip is suitable for general household and garden
-                          waste only.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                )}
-
                 <div className="flex gap-3">
                   <button
                     onClick={() => setShowConfirmation(false)}
