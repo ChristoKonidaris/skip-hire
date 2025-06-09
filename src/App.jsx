@@ -70,7 +70,7 @@ function App() {
     );
   }
 
-  // No Yard Skip data
+  // No Skip data
   if (!loading && skips.length === 0) {
     return (
       <div className="min-h-screen bg-white">
